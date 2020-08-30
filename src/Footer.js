@@ -10,9 +10,9 @@ class Footer extends Component {
         return(
             <div className="footer-wrapper">
                 <div className="footer-links-wrapper">
-                    <a className="footer-link" href="https://soundcloud.com/4litresounds" target="_blank"><Soundcloud height="40px"/></a>
-                    <a className="footer-link" href="https://www.youtube.com/channel/UCpvl4LhRxaufEfsb5J2oEfg" target="_blank"><Youtube height="40px"/></a>
-                    <a className="footer-link" href="https://www.instagram.com/4litresounds/" target="_blank"><Instagram height="40px"/></a>
+                    <a className="footer-link" href="https://soundcloud.com/4litresounds" target="_blank" rel="noopener noreferrer"><Soundcloud height="40px"/></a>
+                    <a className="footer-link" href="https://www.youtube.com/channel/UCpvl4LhRxaufEfsb5J2oEfg" target="_blank" rel="noopener noreferrer"><Youtube height="40px"/></a>
+                    <a className="footer-link" href="https://www.instagram.com/4litresounds/" target="_blank" rel="noopener noreferrer"><Instagram height="40px"/></a>
                     <a className="footer-link" href="mailto:4litresounds@gmail.com"><Mail height="40px"/></a>
                 </div>
             </div>

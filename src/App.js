@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <Header/>
-        <img className="logo" src={Logo}/>
+        <img className="logo" src={Logo} alt=""/>
         <Switch>
             <Route path="/listen" component={Listen}/>
             <Route path="/wear" component={Wear}/>
