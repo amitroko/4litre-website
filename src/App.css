@@ -57,7 +57,6 @@ nav {
 }
 
 .logo {
-  z-index: -1;
   width: 40vw;
   height: 40vw;
   position: fixed;
@@ -81,7 +80,7 @@ li {
   text-decoration-color: #4D4D4D !important;
 }
 
-.listen-wrapper, .wear-wrapper {
+.listen-wrapper, .wear-wrapper, .home-wrapper {
   width: 100%;
   overflow: hidden;
   margin-top: 60px;
@@ -92,6 +91,10 @@ li {
   background: transparent;
   position: relative;
   z-index: 2;
+}
+
+.home-wrapper {
+  top: 17.5vh;
 }
 
 .track {
@@ -116,5 +119,8 @@ li {
 @media screen and (max-width: 1228px) {
   .nav-links {
       margin-right: auto;
+  }
+  .footer-links-wrapper {
+    justify-content: center;
   }
 }

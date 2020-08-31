@@ -7,7 +7,7 @@ class Header extends Component {
         return (
             <nav>
                 <div className="nav-content-wrapper">
-                    <Link to="/listen" style={{textDecoration: 'none'}}>
+                    <Link to="/" style={{textDecoration: 'none'}}>
                         <h3>4litre</h3>
                     </Link>
                     <ul className="nav-links">
