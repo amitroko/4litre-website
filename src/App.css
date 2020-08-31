@@ -94,7 +94,12 @@ li {
 }
 
 .home-wrapper {
-  top: 17.5vh;
+  z-index: 0;
+  height: 660px;
+}
+
+.boat-vid {
+  object-fit: cover;
 }
 
 .track {
