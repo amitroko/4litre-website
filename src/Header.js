@@ -8,7 +8,7 @@ class Header extends Component {
             <nav>
                 <div className="nav-content-wrapper">
                     <Link to="/" style={{textDecoration: 'none'}}>
-                        <h3>4litre</h3>
+                        <h3>fourlitre</h3>
                     </Link>
                     <ul className="nav-links">
                         <NavLink to="/listen" activeClassName="active-link" style={{textDecoration: 'none'}}>

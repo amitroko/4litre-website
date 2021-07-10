@@ -17,6 +17,8 @@ nav {
     position: relative;
     align-content: space-between;
     width: 1228px;
+    max-width: 375px;
+    border: 1px solid red;
     height: 60px;
 }
 
@@ -36,9 +38,3 @@ h3 {
     font-size: 25px;
     display: block;
 }
-
-@media screen and (max-width: 1228px) {
-    .nav-links {
-        margin-right: auto;
-    }
-  }

@@ -37,6 +37,7 @@ nav {
   position: relative;
   align-content: space-between;
   width: 1228px;
+  max-width: 92vw;
   height: 60px;
 }
 
@@ -116,16 +117,11 @@ li {
   color: #F1F1F1;
 }
 
+.player-wrapper {
+  max-width: 98vw;
+}
+
 .footer-link:hover {
   color: #4D4D4D;
   transition: color .6s;
-}
-
-@media screen and (max-width: 1228px) {
-  .nav-links {
-      margin-right: auto;
-  }
-  .footer-links-wrapper {
-    justify-content: center;
-  }
 }
